@@ -8,9 +8,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ソリューション項目", "ソリューション項目", "{EB76A4C4-412E-44B6-9154-2530B09DEA3F}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
+		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NX.DependencyInjection.Tests", "test\NX.DependencyInjection.Tests\NX.DependencyInjection.Tests.csproj", "{23EFEC13-C219-423A-876C-5775F3EC1078}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NX.DependencyInjection.Tests", "test\NX.DependencyInjection.Tests\NX.DependencyInjection.Tests.csproj", "{23EFEC13-C219-423A-876C-5775F3EC1078}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
