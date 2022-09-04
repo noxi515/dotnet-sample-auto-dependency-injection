@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NX.DependencyInjection", "src\NX.DependencyInjection\NX.DependencyInjection.csproj", "{2B94E1A9-3F7D-4642-B9EC-695D26265E3E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ソリューション項目", "ソリューション項目", "{EB76A4C4-412E-44B6-9154-2530B09DEA3F}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NX.DependencyInjection.Tests", "test\NX.DependencyInjection.Tests\NX.DependencyInjection.Tests.csproj", "{23EFEC13-C219-423A-876C-5775F3EC1078}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B94E1A9-3F7D-4642-B9EC-695D26265E3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B94E1A9-3F7D-4642-B9EC-695D26265E3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B94E1A9-3F7D-4642-B9EC-695D26265E3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B94E1A9-3F7D-4642-B9EC-695D26265E3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23EFEC13-C219-423A-876C-5775F3EC1078}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23EFEC13-C219-423A-876C-5775F3EC1078}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23EFEC13-C219-423A-876C-5775F3EC1078}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23EFEC13-C219-423A-876C-5775F3EC1078}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {805F3EA3-6450-4035-93F4-633A01C28D8C}
+	EndGlobalSection
+EndGlobal
